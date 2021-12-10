@@ -1,0 +1,33 @@
+<Xdmf Version="3.0">
+  <Domain>
+    <Grid Name="Grid">
+      <Geometry GeometryType="XYZ">
+        <DataItem DataType="Float" Dimensions="4 3" Format="XML" Precision="8">
+          1.0 1.0 0.0 
+          0.0 1.0 0.0
+          0.0 0.0 0.0
+          1.0 1.0 1.0
+        </DataItem>
+      </Geometry>
+      
+      <Topology TopologyType="Polyvertex" NumberOfElements="4">
+        <DataItem DataType="Int" Dimensions="4 1" Format="XML" Precision="8">
+          1
+          2
+          3
+          4
+        </DataItem>
+      </Topology>
+
+      <Attribute Name="MasseDeLaNoisette" AttributeType="Scalar">
+        <DataItem DataType="Float" Dimensions="4 1" Format="XML" Precision="8">
+          25.0
+          51.0
+          27.0
+          17.0
+        </DataItem>
+      </Attribute>
+
+    </Grid>
+  </Domain>
+</Xdmf>
